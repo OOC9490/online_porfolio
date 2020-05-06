@@ -11,7 +11,7 @@ export default class ContactUs extends Component {
             </div>
             <div className="ten columns">
               <p className="lead">
-                Please don't hesitate to get in touch with me via my social media platforms provided below!
+                Please don't hesitate to get in touch with me via email (l.carreon123@gmail.com) or my social media platforms provided below! 
               </p>
             </div>
           </div>
