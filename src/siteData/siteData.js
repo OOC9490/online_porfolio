@@ -24,7 +24,81 @@ export const aboutData = {
 };
 
 export const resumeData = {
-
+    education: [
+        {
+            institution: "General Assembly",
+            courseName: "Software Engineering Immersive",
+            completionDate: "May 2020",
+            summary: ""
+        },
+        {
+            institution: "Australian College of Commerce and Management",
+            courseName: "Certificate IV in Information Technology",
+            completionDate: "November 2019",
+            summary: ""
+        }
+    ],
+    experience: [
+        {
+            company: "Shore School",
+            role: "Service Desk Officer",
+            duration: "October 2017 - November 2019",
+            roleSummary: ""
+        },
+        {
+            company: "Cafe Harvest",
+            role: "Customer Service/ Cafe Kitchen Hand",
+            duration: "April 2015 - September 2017",
+            roleSummary: ""
+        }
+    ],
+    skillSummary: "Below is a list of my tech skills, the bars indicate my confidence/ current ability to work with the technology listed.",
+    skills: [
+        { 
+            skillName: "Javascript",
+            classStyling: "bar-expand javascript"
+        },
+        { 
+            skillName: "jQuery",
+            classStyling: "bar-expand jquery"
+        },
+        { 
+            skillName: "ReactJS",
+            classStyling: "bar-expand react"
+        },
+        { 
+            skillName: "CSS",
+            classStyling: "bar-expand css"
+        },
+        { 
+            skillName: "HTML5",
+            classStyling: "bar-expand html5"
+        },
+        { 
+            skillName: "Ruby on Rails",
+            classStyling: "bar-expand rails"
+        },
+        { 
+            skillName: "Git (Version control)",
+            classStyling: "bar-expand git"
+        },
+        { 
+            skillName: "NoSQL",
+            classStyling: "bar-expand nosql"
+        },
+        { 
+            skillName: "Postgres",
+            classStyling: "bar-expand postgres"
+        },
+        { 
+            skillName: "Express",
+            classStyling: "bar-expand express"
+        },
+        { 
+            skillName: "MongoDB",
+            classStyling: "bar-expand mongo"
+        }
+    ]
 };
 
 export const portfolioData = {
@@ -35,7 +109,7 @@ export const portfolioData = {
         alt: "Lawrence's web arcade preview",
         category: "Front-End",
         liveLink: "https://ooc9490.github.io/sei36-project0/index.html",
-        tags: [ "Web design", "Gaming" ]
+        tags: [ "Javascript", "jQuery", "HTML5", "CSS" ]
     },
     smashWiki: {
         title: "Smash Bros Wiki",
@@ -44,7 +118,7 @@ export const portfolioData = {
         alt: "Lawrence's smash-wiki preview",
         category: "Full-stack",
         liveLink: "https://smash-wiki-lpc.herokuapp.com/",
-        tags: [ "Web development", "Gaming" ]
+        tags: [ "Ruby", "Ruby on Rails", "Postgres", "ActiveRecord", "CSS" ]
     },
     delivree: {
         title: "Delivree",
@@ -53,7 +127,7 @@ export const portfolioData = {
         alt: "Lawrence's delivree preview",
         category: "Full-stack",
         liveLink: "https://delivree-estore-3a4z5l.netlify.app/#/",
-        tags: [ "Web development", "Retail" ]
+        tags: [ "MongoDB", "Express", "ReactJS", "NodeJS" ]
     },
     tetris: {
         title: "Tetris on React",
@@ -62,7 +136,7 @@ export const portfolioData = {
         alt: "Lawrence's tetris preview",
         category: "Front-End",
         liveLink: "https://ooc9490-tetris-react.netlify.app/",
-        tags: [ "Web development", "Gaming" ]
+        tags: [ "ReactJS", "React Hooks", "Reactstrap" , "Bootstrap" ]
     },
 };
 
