@@ -19,9 +19,6 @@ export default class Resume extends Component{
                     <div className="twelve columns">
                       <h3>{course.institution}</h3>
                       <p className="info">{course.courseName} <span>•</span> <em className="date">{course.completionDate}</em></p>
-                      <p>
-                        {course.summary}
-                      </p>
                     </div>
                   </div>
                 ))}

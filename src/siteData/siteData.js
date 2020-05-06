@@ -29,13 +29,11 @@ export const resumeData = {
             institution: "General Assembly",
             courseName: "Software Engineering Immersive",
             completionDate: "May 2020",
-            summary: ""
         },
         {
             institution: "Australian College of Commerce and Management",
             courseName: "Certificate IV in Information Technology",
             completionDate: "November 2019",
-            summary: ""
         }
     ],
     experience: [
@@ -43,13 +41,13 @@ export const resumeData = {
             company: "Shore School",
             role: "Service Desk Officer",
             duration: "October 2017 - November 2019",
-            roleSummary: ""
+            roleSummary: "A role which involved handling incoming various queries and help requests from end users via either the organisation's customer relations management system or over the phone. After taking detailed notes of the user's experience, I would then determine steps I can either take myself or with my team to resolve the issue and log details of what actions were used to reach a resolution, as well as keeping the end user informed of the status of their request. I was also involved in the improvement of and/or implementation of automation software and scripts, as well as administering user access within the Shore intranet and managing the Standard Operating Environment (SOE) for user devices."
         },
         {
             company: "Cafe Harvest",
             role: "Customer Service/ Cafe Kitchen Hand",
             duration: "April 2015 - September 2017",
-            roleSummary: ""
+            roleSummary: "During my time at cafe harvest, I was seen as a versatile member of the team, able to work in both front-of-house (example duties: attending to customers, maintenance of the dining areas) and back-of-house (example duties: food preparation, handling and storage). During my time at Cafe Harvest, I was able to cultivate excellent communication, problem solving and interpersonal skills."
         }
     ],
     skillSummary: "Below is a list of my tech skills, the bars indicate my confidence/ current ability to work with the technology listed.",
