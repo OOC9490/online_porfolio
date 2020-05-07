@@ -1,4 +1,4 @@
-export const headerData = {
+export const generalData = {
     name: "Lawrence Carreon",
     location: "Sydney",
     role: "full-stack engineer",
@@ -135,10 +135,4 @@ export const portfolioData = {
         liveLink: "https://ooc9490-tetris-react.netlify.app/",
         tags: [ "ReactJS", "React Hooks", "Reactstrap" , "Bootstrap" ]
     },
-};
-
-export const footerData = {
-    twitter: "https://twitter.com/LC_OoC",
-    linkedin: "https://www.linkedin.com/in/lpcarreon",
-    github: "https://github.com/OOC9490"
 };
