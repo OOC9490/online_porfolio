@@ -11,7 +11,7 @@ export default class Portfolio extends Component {
                 <div className="twelve columns collapsed">
                 <h1>Check out the projects I have worked on so far:</h1>
                 {/* portfolio-wrapper */}
-                <div id="portfolio-wrapper" className="bgrid-quarters s-bgrid-thirds cf">
+                <div id="portfolio-wrapper" className="bgrid-halves s-bgrid-thirds cf">
                     <div className="columns portfolio-item">
                     <div className="item-wrap">
                         <a href="#modal-01" title>
