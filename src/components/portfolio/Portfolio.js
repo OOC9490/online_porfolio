@@ -11,11 +11,11 @@ export default class Portfolio extends Component {
                 <div className="twelve columns collapsed">
                 <h1>Check out the projects I have worked on so far:</h1>
                 {/* portfolio-wrapper */}
-                <div id="portfolio-wrapper" className="bgrid-halves s-bgrid-thirds cf">
+                <div id="portfolio-wrapper" className="bgrid-halves s-bgrid-halves cf">
                     <div className="columns portfolio-item">
                     <div className="item-wrap">
                         <a href="#modal-01" title>
-                        <img alt="" src="images/portfolio/webarcade-project.png" />
+                        <img alt={portfolioData.webArcade.alt} src={portfolioData.webArcade.image} />
                         <div className="overlay">
                             <div className="portfolio-item-meta">
                             <h5>{portfolioData.webArcade.title}</h5>
@@ -29,7 +29,7 @@ export default class Portfolio extends Component {
                     <div className="columns portfolio-item">
                     <div className="item-wrap">
                         <a href="#modal-02" title>
-                        <img alt="" src="images/portfolio/smashwiki-project.png" />
+                        <img alt={portfolioData.smashWiki.alt} src={portfolioData.smashWiki.image} />
                         <div className="overlay">
                             <div className="portfolio-item-meta">
                             <h5>{portfolioData.smashWiki.title}</h5>
@@ -43,7 +43,7 @@ export default class Portfolio extends Component {
                     <div className="columns portfolio-item">
                     <div className="item-wrap">
                         <a href="#modal-03" title>
-                        <img alt="" src="images/portfolio/delivree-project.png" />
+                        <img alt={portfolioData.delivree.alt} src={portfolioData.delivree.image} />
                         <div className="overlay">
                             <div className="portfolio-item-meta">
                             <h5>{portfolioData.delivree.title}</h5>
@@ -57,7 +57,7 @@ export default class Portfolio extends Component {
                     <div className="columns portfolio-item">
                     <div className="item-wrap">
                         <a href="#modal-04" title>
-                        <img alt="" src="images/portfolio/tetris-project.png" />
+                        <img alt={portfolioData.tetris.alt} src={portfolioData.tetris.image} />
                         <div className="overlay">
                             <div className="portfolio-item-meta">
                             <h5>{portfolioData.tetris.title}</h5>
@@ -73,7 +73,7 @@ export default class Portfolio extends Component {
                 {/* Modal Popups
                 --------------------------------------------------------------- */}
                 <div id="modal-01" className="popup-modal mfp-hide">
-                <img className="scale-with-grid" src="images/portfolio/webarcade-project.png" alt="" />
+                <img className="scale-with-grid" src={portfolioData.webArcade.image} alt={portfolioData.webArcade.alt} />
                 <div className="description-box">
                     <h4>{portfolioData.webArcade.title}</h4>
                     <p>{portfolioData.webArcade.description}</p>
@@ -85,7 +85,7 @@ export default class Portfolio extends Component {
                 </div>
                 </div>{/* modal-01 End */}
                 <div id="modal-02" className="popup-modal mfp-hide">
-                <img className="scale-with-grid" src="images/portfolio/smashwiki-project.png" alt="" />
+                <img className="scale-with-grid" src={portfolioData.smashWiki.image} alt={portfolioData.smashWiki.alt} />
                 <div className="description-box">
                     <h4>{portfolioData.smashWiki.title}</h4>
                     <p>{portfolioData.smashWiki.description}</p>
@@ -97,7 +97,7 @@ export default class Portfolio extends Component {
                 </div>
                 </div>{/* modal-02 End */}
                 <div id="modal-03" className="popup-modal mfp-hide">
-                <img className="scale-with-grid" src="images/portfolio/delivree-project.png" alt="" />
+                <img className="scale-with-grid" src={portfolioData.delivree.image} alt={portfolioData.delivree.alt} />
                 <div className="description-box">
                     <h4>{portfolioData.delivree.title}</h4>
                     <p>{portfolioData.delivree.description}</p>
