@@ -121,7 +121,7 @@ export const portfolioData = {
     delivree: {
         title: "Delivree",
         image: "images/portfolio/delivree-project.png",
-        description: "A group project that was designed to help online food retailers to manage their delivery orders. Developed with the 'MERN' tech stack",
+        description: "A group project that was designed to help online food retailers to manage their delivery orders. Developed with the 'MERN' tech stack.",
         alt: "Lawrence's delivree preview",
         category: "Full-stack",
         liveLink: "https://delivree-estore-3a4z5l.netlify.app/#/",
@@ -130,7 +130,7 @@ export const portfolioData = {
     tetris: {
         title: "Tetris on React",
         image: "images/portfolio/tetris-project.png",
-        description: "A project designed to recreate tetris utilising ReactJS's hooks to manage the game state and do computations",
+        description: "A project designed to recreate tetris utilising ReactJS's hooks to manage the game state and do computations.",
         alt: "Lawrence's tetris preview",
         category: "Front-End",
         liveLink: "https://ooc9490-tetris-react.netlify.app/",
