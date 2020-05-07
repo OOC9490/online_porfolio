@@ -17,8 +17,7 @@ export const aboutData = {
         "My pivot into full-stack development will hopefully allow me to part-take in more creative but challenging pursuits, and assist in pursuing my passion of all things digital!",
         "I am looking forward to developing my coding skill set further and to join an innovative team with a great learning culture."
     ],
-    addressLine1: "6 Baragal Place",
-    addressLine2: "Hoxton Park NSW 2171",
+    addressLine1: "New South Wales, Australia",
     phone: "0424 331 332",
     email: "l.carreon123@gmail.com"
 };
