@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 
 export default class ContactUs extends Component {
     render() {
+      const contactData = this.props.contactData;
+
       return (
   
         <section id="contact">
@@ -11,7 +13,7 @@ export default class ContactUs extends Component {
             </div>
             <div className="ten columns">
               <p className="lead">
-                Please don't hesitate to get in touch with me via email (l.carreon123@gmail.com) or my social media platforms provided below! 
+                Please don't hesitate to get in touch with me via email (<a href={`mailto:${contactData.email}`}>{contactData.email}</a>) or on my social media platforms provided below! 
               </p>
             </div>
           </div>

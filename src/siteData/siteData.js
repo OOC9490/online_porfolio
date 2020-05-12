@@ -6,7 +6,8 @@ export const generalData = {
     education: "General Assembly",
     twitter: "https://twitter.com/LC_OoC",
     linkedin: "https://www.linkedin.com/in/lpcarreon",
-    github: "https://github.com/OOC9490"
+    github: "https://github.com/OOC9490",
+    email:"l.carreon123@gmail.com"
 };
 
 export const aboutData = {
@@ -106,7 +107,8 @@ export const portfolioData = {
         alt: "Lawrence's web arcade preview",
         category: "Front-End",
         liveLink: "https://ooc9490.github.io/sei36-project0/index.html",
-        tags: [ "Javascript", "jQuery", "HTML5", "CSS" ]
+        tags: [ "Javascript", "jQuery", "HTML5", "CSS" ],
+        repoLink: "https://github.com/OOC9490/sei36-project0"
     },
     smashWiki: {
         title: "Smash Bros Wiki",
@@ -115,7 +117,8 @@ export const portfolioData = {
         alt: "Lawrence's smash-wiki preview",
         category: "Full-stack",
         liveLink: "https://smash-wiki-lpc.herokuapp.com/",
-        tags: [ "Ruby", "Ruby on Rails", "Postgres", "ActiveRecord", "CSS" ]
+        tags: [ "Ruby", "Ruby on Rails", "Postgres", "ActiveRecord", "CSS" ],
+        repoLink: "https://github.com/OOC9490/sei36-project1"
     },
     delivree: {
         title: "Delivree",
@@ -124,7 +127,9 @@ export const portfolioData = {
         alt: "Lawrence's delivree preview",
         category: "Full-stack",
         liveLink: "https://delivree-estore-3a4z5l.netlify.app/#/",
-        tags: [ "MongoDB", "Express", "ReactJS", "NodeJS" ]
+        tags: [ "MongoDB", "Express", "ReactJS", "NodeJS" ],
+        repoLinkFront: "https://github.com/ispzz/Frontend-Project2",
+        repoLinkBack: "https://github.com/doubleInc/backend-estore"
     },
     tetris: {
         title: "Tetris on React",
@@ -133,6 +138,8 @@ export const portfolioData = {
         alt: "Lawrence's tetris preview",
         category: "Front-End",
         liveLink: "https://ooc9490-tetris-react.netlify.app/",
-        tags: [ "ReactJS", "React Hooks", "Reactstrap" , "Bootstrap" ]
+        tags: [ "ReactJS", "React Hooks", "Reactstrap" , "Bootstrap" ],
+        repoLink: "https://github.com/OOC9490/project3"
     },
 };
+

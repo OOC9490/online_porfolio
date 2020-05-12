@@ -15,7 +15,7 @@ class App extends Component {
         <About aboutData={aboutData}/>
         <Resume resumeData={resumeData}/>
         <Portfolio portfolioData={portfolioData}/>
-        <ContactUs />
+        <ContactUs contactData={generalData}/>
         <Footer footerData={generalData}/>
       </div>
     );

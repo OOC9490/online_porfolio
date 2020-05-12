@@ -81,6 +81,7 @@ export default class Portfolio extends Component {
                 </div>
                 <div className="link-box">
                     <a href={portfolioData.webArcade.liveLink}>Visit the Site</a>
+                    <a className="popup-modal-dismiss" href={portfolioData.webArcade.repoLink}>View the Code</a>
                     <a className="popup-modal-dismiss">Close</a>
                 </div>
                 </div>{/* modal-01 End */}
@@ -93,6 +94,7 @@ export default class Portfolio extends Component {
                 </div>
                 <div className="link-box">
                     <a href={portfolioData.smashWiki.liveLink}>Visit the Site</a>
+                    <a className="popup-modal-dismiss" href={portfolioData.smashWiki.repoLink}>View the Code</a>
                     <a className="popup-modal-dismiss">Close</a>
                 </div>
                 </div>{/* modal-02 End */}
@@ -105,6 +107,8 @@ export default class Portfolio extends Component {
                 </div>
                 <div className="link-box">
                     <a href={portfolioData.delivree.liveLink}>Visit the Site</a>
+                    <a className="popup-modal-dismiss" href={portfolioData.delivree.repoLinkFront}>Front-End Code</a>
+                    <a className="popup-modal-dismiss" href={portfolioData.delivree.repoLinkFront}>Back-End Code</a>
                     <a className="popup-modal-dismiss">Close</a>
                 </div>
                 </div>{/* modal-03 End */}
@@ -121,6 +125,7 @@ export default class Portfolio extends Component {
                 </div>
                 <div className="link-box">
                     <a href={portfolioData.tetris.liveLink}>Visit the Site</a>
+                    <a className="popup-modal-dismiss" href={portfolioData.tetris.repoLink}>View the Code</a>
                     <a className="popup-modal-dismiss">Close</a>
                 </div>
                 </div>{/* modal-04 End */}
