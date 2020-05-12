@@ -80,7 +80,7 @@ export default class Portfolio extends Component {
                     <span className="categories"><i className="fa fa-tag" />{portfolioData.webArcade.tags.join(", ")}</span>
                 </div>
                 <div className="link-box">
-                    <a href={portfolioData.webArcade.liveLink}>Visit the Site</a>
+                    <a className="popup-modal-dismiss" href={portfolioData.webArcade.liveLink}>Visit the Site</a>
                     <a className="popup-modal-dismiss" href={portfolioData.webArcade.repoLink}>View the Code</a>
                     <a className="popup-modal-dismiss">Close</a>
                 </div>
@@ -93,7 +93,7 @@ export default class Portfolio extends Component {
                     <span className="categories"><i className="fa fa-tag" />{portfolioData.smashWiki.tags.join(", ")}</span>
                 </div>
                 <div className="link-box">
-                    <a href={portfolioData.smashWiki.liveLink}>Visit the Site</a>
+                    <a className="popup-modal-dismiss" href={portfolioData.smashWiki.liveLink}>Visit the Site</a>
                     <a className="popup-modal-dismiss" href={portfolioData.smashWiki.repoLink}>View the Code</a>
                     <a className="popup-modal-dismiss">Close</a>
                 </div>
@@ -106,7 +106,7 @@ export default class Portfolio extends Component {
                     <span className="categories"><i className="fa fa-tag" />{portfolioData.delivree.tags.join(", ")}</span>
                 </div>
                 <div className="link-box">
-                    <a href={portfolioData.delivree.liveLink}>Visit the Site</a>
+                    <a className="popup-modal-dismiss" href={portfolioData.delivree.liveLink}>Visit the Site</a>
                     <a className="popup-modal-dismiss" href={portfolioData.delivree.repoLinkFront}>Front-End Code</a>
                     <a className="popup-modal-dismiss" href={portfolioData.delivree.repoLinkFront}>Back-End Code</a>
                     <a className="popup-modal-dismiss">Close</a>
@@ -124,7 +124,7 @@ export default class Portfolio extends Component {
                     </span>
                 </div>
                 <div className="link-box">
-                    <a href={portfolioData.tetris.liveLink}>Visit the Site</a>
+                    <a className="popup-modal-dismiss" href={portfolioData.tetris.liveLink}>Visit the Site</a>
                     <a className="popup-modal-dismiss" href={portfolioData.tetris.repoLink}>View the Code</a>
                     <a className="popup-modal-dismiss">Close</a>
                 </div>
