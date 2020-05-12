@@ -13,7 +13,7 @@ export default class ContactUs extends Component {
             </div>
             <div className="ten columns">
               <p className="lead">
-                Please don't hesitate to get in touch with me via email (<a href={`mailto:${contactData.email}`}>{contactData.email}</a>) or on my social media platforms provided below! 
+                Want to get to know me better? Contact me via email (<a href={`mailto:${contactData.email}`}>{contactData.email}</a>) or on my social media platforms provided! 
               </p>
             </div>
           </div>
