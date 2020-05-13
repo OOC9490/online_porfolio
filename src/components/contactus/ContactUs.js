@@ -14,11 +14,11 @@ export default class ContactUs extends Component {
             </div>
             <div className="ten columns">
               <p className="lead">
-                Want to get to know me better? Contact me via email (<a href={`mailto:${contactData.email}`}>{contactData.email}</a>) or on my social media platforms provided! 
+                Have a question for me? Send me a message using the form below or on my social media platforms provided! 
               </p>
             </div>
           </div>
-          {/* <Form /> */}
+          <Form />
         </section>
       );
     }
