@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Form from './Form';
 
 export default class ContactUs extends Component {
     render() {
@@ -17,6 +18,7 @@ export default class ContactUs extends Component {
               </p>
             </div>
           </div>
+          {/* <Form /> */}
         </section>
       );
     }

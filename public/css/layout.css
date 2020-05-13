@@ -634,6 +634,7 @@ ul#nav li.current a {
    text-shadow: 0 0 10px #1da1f2; 
 }
 .popup-modal a.popup-modal-dismiss { margin-left: 24px; }
+.popup-modal a.popup-modal-external { margin-left: 24px; }
 
 
 /* fadein/fadeout effect for modal popup
