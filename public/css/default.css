@@ -766,7 +766,7 @@ properly.
        margin-left: 0px; 
    }
 
-   .popup-modal-dismiss {
+   .popup-modal-dismiss, .popup-modal-external {
       margin: 1em 0 1em 0;
    }
 }

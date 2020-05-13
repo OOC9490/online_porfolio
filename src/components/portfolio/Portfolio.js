@@ -9,7 +9,7 @@ export default class Portfolio extends Component {
             <section id="portfolio">
             <div className="row">
                 <div className="twelve columns collapsed">
-                <h1>Check out the projects I have worked on so far:</h1>
+                <h1>Check out the projects I have worked on so far:<br/>(Click on the thumbnails for more details)</h1>
                 {/* portfolio-wrapper */}
                 <div id="portfolio-wrapper" className="bgrid-halves s-bgrid-halves cf">
                     <div className="columns portfolio-item">
