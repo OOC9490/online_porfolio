@@ -77,7 +77,7 @@ export const resumeData = {
             classStyling: "bar-expand rails"
         },
         { 
-            skillName: "Git (Version control)",
+            skillName: "Git",
             classStyling: "bar-expand git"
         },
         { 
