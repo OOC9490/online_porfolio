@@ -50,7 +50,6 @@ export const resumeData = {
             roleSummary: "During my time at cafe harvest, I was seen as a versatile member of the team, able to work in both front-of-house (example duties: attending to customers, maintenance of the dining areas) and back-of-house (example duties: food preparation, handling and storage). During my time at Cafe Harvest, I was able to cultivate excellent communication, problem solving and interpersonal skills."
         }
     ],
-    skillSummary: "Below is a list of my tech skills, the bars indicate my confidence/ current ability to work with the technology listed.",
     skills: [
         { 
             skillName: "Javascript",

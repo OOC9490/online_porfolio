@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import Form from './Form';
 
 export default class ContactUs extends Component {
     render() {
@@ -14,11 +13,10 @@ export default class ContactUs extends Component {
             </div>
             <div className="ten columns">
               <p className="lead">
-                Have a question for me? Send me a message using the form below or on my social media platforms provided! 
+                Want to get to know me better? Send me a message via <a href={`mailto:${contactData.email}`}>{contactData.email}</a> or on my social media platforms provided! 
               </p>
             </div>
           </div>
-          <Form />
         </section>
       );
     }

@@ -13,8 +13,8 @@ class App extends Component {
       <div className="App">
         <Header headerData={generalData}/>
         <About aboutData={aboutData}/>
-        <Resume resumeData={resumeData}/>
         <Portfolio portfolioData={portfolioData}/>
+        <Resume resumeData={resumeData}/>
         <ContactUs contactData={generalData}/>
         <Footer footerData={generalData}/>
       </div>

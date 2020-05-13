@@ -7,6 +7,22 @@ export default class Resume extends Component{
         return (
   
           <section id="resume">
+              {/* Skills
+          ----------------------------------------------- */}
+            <div className="row skill">
+              <div className="three columns header-col">
+                <h1><span>Skills</span></h1>
+              </div>
+              <div className="nine columns main-col">
+                <div className="bars">
+                  <ul className="skills">
+                    { resumeData.skills.map(skill => (
+                      <li><em>{skill.skillName}</em></li>
+                    ))}
+                  </ul>
+                </div>
+              </div> {/* main-col end */}
+            </div> {/* End skills */}
             {/* Education
           ----------------------------------------------- */}
             <div className="row education">
@@ -44,25 +60,6 @@ export default class Resume extends Component{
                 ))}
               </div> {/* main-col end */}
             </div> {/* End Work */}
-            {/* Skills
-          ----------------------------------------------- */}
-            <div className="row skill">
-              <div className="three columns header-col">
-                <h1><span>Skills</span></h1>
-              </div>
-              <div className="nine columns main-col">
-                <p>
-                  {resumeData.skillSummary}
-                </p>
-                <div className="bars">
-                  <ul className="skills">
-                    { resumeData.skills.map(skill => (
-                      <li><span className={skill.classStyling} /><em>{skill.skillName}</em></li>
-                    ))}
-                  </ul>
-                </div>{/* end skill-bars */}
-              </div> {/* main-col end */}
-            </div> {/* End skills */}
           </section>
         );
     }
