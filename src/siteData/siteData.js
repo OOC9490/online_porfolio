@@ -127,8 +127,8 @@ export const portfolioData = {
         category: "Full-stack",
         liveLink: "https://delivree-estore-3a4z5l.netlify.app/#/",
         tags: [ "MongoDB", "Express", "ReactJS", "NodeJS" ],
-        repoLinkFront: "https://github.com/ispzz/Frontend-Project2",
-        repoLinkBack: "https://github.com/doubleInc/backend-estore"
+        repoLinkFront: "https://github.com/OOC9490/Frontend-Project2",
+        repoLinkBack: "https://github.com/OOC9490/backend-estore"
     },
     tetris: {
         title: "Tetris on React",
