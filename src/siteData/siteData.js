@@ -102,6 +102,7 @@ export const portfolioData = {
     webArcade: {
         title: "Lawrence's Web Arcade",
         image: "images/portfolio/webarcade-project.png",
+        preview: "images/portfolio/WebArcade_Preview.gif",
         description: "My first project within web development, it aims to recreate the some classic games in Javascript and jQuery!",
         alt: "Lawrence's web arcade preview",
         category: "Front-End",
@@ -112,6 +113,7 @@ export const portfolioData = {
     smashWiki: {
         title: "Smash Bros Wiki",
         image: "images/portfolio/smashwiki-project.png",
+        preview: "images/portfolio/SmashWiki_Preview.gif",
         description: "My first shot at designing a website with a CRUD system utilising Ruby on Rails!",
         alt: "Lawrence's smash-wiki preview",
         category: "Full-stack",
@@ -122,6 +124,7 @@ export const portfolioData = {
     delivree: {
         title: "Delivree",
         image: "images/portfolio/delivree-project.png",
+        preview: "images/portfolio/Delivree_Preview.gif",
         description: "A group project that was designed to help online food retailers to manage their delivery orders. Developed with the 'MERN' tech stack.",
         alt: "Lawrence's delivree preview",
         category: "Full-stack",
@@ -133,6 +136,7 @@ export const portfolioData = {
     tetris: {
         title: "Tetris on React",
         image: "images/portfolio/tetris-project.png",
+        preview: "images/portfolio/Tetris_React_Preview.gif",
         description: "A project designed to recreate tetris utilising ReactJS's hooks to manage the game state and do computations.",
         alt: "Lawrence's tetris preview",
         category: "Front-End",

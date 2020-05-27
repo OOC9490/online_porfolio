@@ -636,6 +636,10 @@ ul#nav li.current a {
 }
 .popup-modal a.popup-modal-dismiss { margin-left: 24px; }
 .popup-modal a.popup-modal-external { margin-left: 24px; }
+/* .popup-modal img {
+   display: block;
+   margin: 0 auto;
+} */
 
 
 /* fadein/fadeout effect for modal popup

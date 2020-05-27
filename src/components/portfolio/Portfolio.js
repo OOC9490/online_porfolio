@@ -15,7 +15,7 @@ export default class Portfolio extends Component {
                     <div className="columns portfolio-item">
                     <div className="item-wrap">
                         <a href="#modal-01" title>
-                        <img alt={portfolioData.webArcade.alt} src={portfolioData.webArcade.image} />
+                        <img alt={portfolioData.webArcade.alt} src={portfolioData.webArcade.preview} />
                         <div className="overlay">
                             <div className="portfolio-item-meta">
                             <h5>{portfolioData.webArcade.title}</h5>
@@ -29,7 +29,7 @@ export default class Portfolio extends Component {
                     <div className="columns portfolio-item">
                     <div className="item-wrap">
                         <a href="#modal-02" title>
-                        <img alt={portfolioData.smashWiki.alt} src={portfolioData.smashWiki.image} />
+                        <img alt={portfolioData.smashWiki.alt} src={portfolioData.smashWiki.preview} />
                         <div className="overlay">
                             <div className="portfolio-item-meta">
                             <h5>{portfolioData.smashWiki.title}</h5>
@@ -43,7 +43,7 @@ export default class Portfolio extends Component {
                     <div className="columns portfolio-item">
                     <div className="item-wrap">
                         <a href="#modal-03" title>
-                        <img alt={portfolioData.delivree.alt} src={portfolioData.delivree.image} />
+                        <img alt={portfolioData.delivree.alt} src={portfolioData.delivree.preview} />
                         <div className="overlay">
                             <div className="portfolio-item-meta">
                             <h5>{portfolioData.delivree.title}</h5>
@@ -57,7 +57,7 @@ export default class Portfolio extends Component {
                     <div className="columns portfolio-item">
                     <div className="item-wrap">
                         <a href="#modal-04" title>
-                        <img alt={portfolioData.tetris.alt} src={portfolioData.tetris.image} />
+                        <img alt={portfolioData.tetris.alt} src={portfolioData.tetris.preview} />
                         <div className="overlay">
                             <div className="portfolio-item-meta">
                             <h5>{portfolioData.tetris.title}</h5>
